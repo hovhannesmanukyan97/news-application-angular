@@ -1,0 +1,7 @@
+<div class="container mt-4 mb-4">
+  <div class="row">
+    <div class="col-12 col-md-6" *ngFor="let item of news">
+      <app-list-item title="{{item.title}}" id="{{item.id}}"></app-list-item>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row mt-4">
+    <div class="col-12 col-md-6">
+      <div class="news-title">
+        <h2>
+          {{detail.title}}
+        </h2>
+        <p>
+          {{detail.body}}
+        </p>
+      </div>
+    </div>
+    <div class="col-12 col-md-2 offset-md-3">
+      <div class="user-detail text-center">
+        <div class="author">Author</div>
+        <div class="profile-picture">
+          <img src="https://xsgames.co/randomusers/avatar.php?g=pixel" alt="">
+        </div>
+        <div class="name">{{detail.user.name}}</div>
+        <div class="username">@{{detail.user.username}}</div>
+        <div class="email"><a href="{{detail.user.email}}">{{detail.user.email}}</a></div>
+      </div>
+    </div>
+  </div>
+</div>

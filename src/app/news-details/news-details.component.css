@@ -1,0 +1,24 @@
+.container{
+  min-height: calc(100vh - 350px);
+}
+.user-detail .profile-picture img{
+  border-radius: 50%;
+  width: 50%;
+  background: #606060;
+}
+.user-detail .name{
+  font-size: 18px;
+  font-weight: 600;
+}
+.user-detail .username{
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.user-detail .author{
+  font-weight: 600;
+}
+a{
+  text-decoration: none;
+  color: #000000;
+}

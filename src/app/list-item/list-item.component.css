@@ -1,0 +1,20 @@
+.list-item{
+  border: 1px solid #b0b0b0;
+  border-radius: 5px;
+
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.list-item .title{
+  text-transform: capitalize;
+}
+.list-item:hover{
+  transform: scale(1.01);
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;;
+}
+.list-item a{
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  padding: 20px 25px;
+}
